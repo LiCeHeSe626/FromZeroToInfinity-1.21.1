@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "from_zero_to_infinity:block/future_debris_top",
+    "side": "from_zero_to_infinity:block/future_debris_side"
+  }
+}

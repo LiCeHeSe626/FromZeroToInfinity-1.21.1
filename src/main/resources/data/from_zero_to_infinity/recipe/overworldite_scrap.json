@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 2.0,
+  "ingredient": {
+    "item": "from_zero_to_infinity:modern_debris"
+  },
+  "result": {
+    "id": "from_zero_to_infinity:overworldite_scrap"
+  }
+}

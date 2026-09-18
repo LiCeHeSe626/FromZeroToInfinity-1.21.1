@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "from_zero_to_infinity:endite_ingot"
+  },
+  "base": {
+    "item": "from_zero_to_infinity:titanium_axe"
+  },
+  "result": {
+    "count": 1,
+    "id": "from_zero_to_infinity:endite_axe"
+  },
+  "template": {
+    "item": "from_zero_to_infinity:template/endite_upgrade_smithing_template"
+  }
+}

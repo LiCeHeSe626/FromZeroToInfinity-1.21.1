@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "O": {
+      "item": "from_zero_to_infinity:overworldite_scrap"
+    },
+    "C": {
+      "item": "from_zero_to_infinity:cobalt_ingot"
+    },
+    "I": {
+      "item": "from_zero_to_infinity:iridium_ingot"
+    }
+  },
+  "pattern": [
+    "OOC",
+    "CI ",
+    "   "
+  ],
+  "result": {
+    "count":3,
+    "id": "from_zero_to_infinity:overworldite_ingot"
+  }
+}

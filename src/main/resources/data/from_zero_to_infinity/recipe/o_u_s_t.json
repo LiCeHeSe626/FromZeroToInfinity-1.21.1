@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "E": {
+      "item": "minecraft:deepslate"
+    },
+    "T": {
+      "item": "from_zero_to_infinity:cobalt_ingot"
+    }
+  },
+  "pattern": [
+    "EEE",
+    "ETE",
+    "EEE"
+  ],
+  "result": {
+    "count":1,
+    "id": "from_zero_to_infinity:template/overworldite_upgrade_smithing_template"
+  }
+}

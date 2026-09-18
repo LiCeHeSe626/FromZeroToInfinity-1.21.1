@@ -1,0 +1,27 @@
+{
+  "feature": "from_zero_to_infinity:buried_ore_co",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 8
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:trapezoid",
+        "max_inclusive": {
+          "absolute": 13
+        },
+        "min_inclusive": {
+          "absolute": -59
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "from_zero_to_infinity:time_alloy_ingot"
+    },
+    "title": {
+      "text": "从零到无穷大"
+    },
+    "description": {
+      "text": "从原始人开始..."
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/block/dirt.png"
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

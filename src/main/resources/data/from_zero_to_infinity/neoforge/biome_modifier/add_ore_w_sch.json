@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_nether",
+  "features": [
+    "from_zero_to_infinity:ore_w_sch"
+  ],
+  "step": "underground_ores"
+}

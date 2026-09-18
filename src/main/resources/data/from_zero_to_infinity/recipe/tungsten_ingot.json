@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 150,
+  "experience": 1.0,
+  "ingredient": {
+    "item": "from_zero_to_infinity:raw_tungsten"
+  },
+  "result": {
+    "id": "from_zero_to_infinity:tungsten_ingot"
+  }
+}

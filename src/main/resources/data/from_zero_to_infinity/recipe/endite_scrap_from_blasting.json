@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 2.0,
+  "ingredient": {
+    "item": "from_zero_to_infinity:future_debris"
+  },
+  "result": {
+    "id": "from_zero_to_infinity:endite_scrap"
+  }
+}

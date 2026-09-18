@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 180,
+  "experience": 1.0,
+  "ingredient": {
+    "item": "from_zero_to_infinity:raw_iridium"
+  },
+  "result": {
+    "id": "from_zero_to_infinity:iridium_ingot"
+  }
+}

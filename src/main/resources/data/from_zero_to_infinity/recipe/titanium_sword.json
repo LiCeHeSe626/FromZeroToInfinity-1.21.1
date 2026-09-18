@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "from_zero_to_infinity:titanium_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " # ",
+    " # ",
+    " S "
+  ],
+  "result": {
+    "count":1,
+    "id": "from_zero_to_infinity:titanium_sword"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 90,
+  "experience": 1.0,
+  "ingredient": {
+    "item": "from_zero_to_infinity:raw_palladium"
+  },
+  "result": {
+    "id": "from_zero_to_infinity:palladium_ingot"
+  }
+}

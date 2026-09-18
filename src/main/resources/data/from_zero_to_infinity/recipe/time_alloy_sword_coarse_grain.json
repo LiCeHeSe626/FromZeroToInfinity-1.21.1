@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "O": {
+      "item": "from_zero_to_infinity:overworldite_sword"
+    },
+    "N": {
+      "item": "minecraft:netherite_sword"
+    },
+    "E": {
+      "item": "from_zero_to_infinity:endite_sword"
+    }
+  },
+  "pattern": [
+    "N  ",
+    "O  ",
+    "E  "
+  ],
+  "result": {
+    "count":1,
+    "id": "from_zero_to_infinity:time_alloy_sword_coarse_grain"
+  }
+}

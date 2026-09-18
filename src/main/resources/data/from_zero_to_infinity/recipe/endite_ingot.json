@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "E": {
+      "item": "from_zero_to_infinity:endite_scrap"
+    },
+    "T": {
+      "item": "from_zero_to_infinity:titanium_ingot"
+    },
+    "A": {
+      "item": "from_zero_to_infinity:silver_ingot"
+    }
+  },
+  "pattern": [
+    "EET",
+    "TA ",
+    "   "
+  ],
+  "result": {
+    "count":3,
+    "id": "from_zero_to_infinity:endite_ingot"
+  }
+}

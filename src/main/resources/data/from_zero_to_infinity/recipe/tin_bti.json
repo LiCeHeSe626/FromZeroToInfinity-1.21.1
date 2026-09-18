@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "from_zero_to_infinity:tin_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "from_zero_to_infinity:tin_ingot"
+  }
+}

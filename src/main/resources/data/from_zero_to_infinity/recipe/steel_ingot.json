@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "W": {
+      "item": "from_zero_to_infinity:wrought_iron_ingot"
+    },
+    "P": {
+      "item": "from_zero_to_infinity:pig_iron_ingot"
+    }
+  },
+  "pattern": [
+    "   ",
+    "WP ",
+    "   "
+  ],
+  "result": {
+    "count":2,
+    "id": "from_zero_to_infinity:steel_ingot"
+  }
+}

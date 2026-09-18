@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 140,
+  "experience": 1.0,
+  "ingredient": {
+    "item": "from_zero_to_infinity:pig_iron_ingot"
+  },
+  "result": {
+    "id": "from_zero_to_infinity:wrought_iron_ingot"
+  }
+}

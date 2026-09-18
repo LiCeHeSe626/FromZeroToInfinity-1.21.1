@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "from_zero_to_infinity:stoneage/sharp_stone"
+    },
+    "A": {
+      "item": "from_zero_to_infinity:stoneage/stone_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "#A#",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "count":1,
+    "id": "minecraft:stone_pickaxe"
+  }
+}

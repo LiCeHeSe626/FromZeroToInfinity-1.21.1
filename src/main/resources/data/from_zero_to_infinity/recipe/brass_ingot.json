@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "C": {
+      "item": "minecraft:copper_ingot"
+    },
+    "Z": {
+      "item": "from_zero_to_infinity:zinc_ingot"
+    }
+  },
+  "pattern": [
+    "CCC",
+    " Z ",
+    "   "
+  ],
+  "result": {
+    "count":4,
+    "id": "from_zero_to_infinity:brass_ingot"}
+}
+
+

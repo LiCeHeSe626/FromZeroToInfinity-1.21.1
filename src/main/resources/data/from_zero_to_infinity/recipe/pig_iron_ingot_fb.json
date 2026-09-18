@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 65,
+  "experience": 1.0,
+  "ingredient": {
+    "item": "from_zero_to_infinity:steel_cg_ingot"
+  },
+  "result": {
+    "id": "from_zero_to_infinity:pig_iron_ingot"
+  }
+}

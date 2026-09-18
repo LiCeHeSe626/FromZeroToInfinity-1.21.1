@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "from_zero_to_infinity:overworldite_ingot"
+  },
+  "base": {
+    "item": "from_zero_to_infinity:cobalt_pickaxe"
+  },
+  "result": {
+    "count": 1,
+    "id": "from_zero_to_infinity:overworldite_pickaxe"
+  },
+  "template": {
+    "item": "from_zero_to_infinity:template/overworldite_upgrade_smithing_template"
+  }
+}

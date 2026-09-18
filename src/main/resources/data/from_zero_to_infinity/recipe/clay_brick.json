@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "C": {
+      "item": "minecraft:clay_ball"
+    }
+  },
+  "pattern": [
+    "CC ",
+    "   ",
+    "   "
+  ],
+  "result": {
+    "count":5,
+    "id": "from_zero_to_infinity:clay_brick"}
+}
+
+

@@ -1,0 +1,18 @@
+{
+  "values": [
+    "from_zero_to_infinity:future_debris",
+    "from_zero_to_infinity:modern_debris",
+    "from_zero_to_infinity:end_iridium_ore",
+    "from_zero_to_infinity:end_osmium_ore",
+    "from_zero_to_infinity:end_palladium_ore",
+    "from_zero_to_infinity:end_platinum_ore",
+    "from_zero_to_infinity:end_rhodium_ore",
+    "from_zero_to_infinity:end_ruthenium_ore",
+    "from_zero_to_infinity:end_silver_ore",
+    "from_zero_to_infinity:nether_scheelite_ore",
+    "from_zero_to_infinity:nether_wolframite_ore",
+    "minecraft:respawn_anchor",
+    "minecraft:crying_obsidian",
+    "minecraft:obsidian"
+  ]
+}

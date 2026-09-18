@@ -1,0 +1,10 @@
+{
+  "replace": true,
+  "values": [
+    "from_zero_to_infinity:cassiterite_ore",
+    "from_zero_to_infinity:deepslate_cassiterite_ore",
+    "#minecraft:logs",
+    "minecraft:copper_ore",
+    "minecraft:deepslate_copper_ore"
+  ]
+}

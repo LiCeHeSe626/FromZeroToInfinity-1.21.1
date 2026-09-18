@@ -1,0 +1,10 @@
+{
+  "values": [
+    "from_zero_to_infinity:deepslate_cobalt_ore",
+    "from_zero_to_infinity:end_titanium_ore",
+    "from_zero_to_infinity:nether_wolframite_ore",
+    "from_zero_to_infinity:nether_scheelite_ore",
+    "minecraft:diamond_ore",
+    "minecraft:deepslate_diamond_ore"
+  ]
+}

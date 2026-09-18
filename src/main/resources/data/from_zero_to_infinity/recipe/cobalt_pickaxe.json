@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "from_zero_to_infinity:cobalt_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "###",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "count":1,
+    "id": "from_zero_to_infinity:cobalt_pickaxe"
+  }
+}

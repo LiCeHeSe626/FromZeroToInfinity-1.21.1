@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "from_zero_to_infinity:bronze_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "BBB",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "count":1,
+    "id": "from_zero_to_infinity:bronze_pickaxe"}
+}

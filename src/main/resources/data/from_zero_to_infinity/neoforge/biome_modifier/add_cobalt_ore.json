@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "from_zero_to_infinity:ore_cobalt_small"
+  ],
+  "step": "underground_ores"
+}

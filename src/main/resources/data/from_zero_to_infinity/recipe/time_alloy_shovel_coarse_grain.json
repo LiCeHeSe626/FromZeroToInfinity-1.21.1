@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "O": {
+      "item": "from_zero_to_infinity:overworldite_shovel"
+    },
+    "N": {
+      "item": "minecraft:netherite_shovel"
+    },
+    "E": {
+      "item": "from_zero_to_infinity:endite_shovel"
+    }
+  },
+  "pattern": [
+    "N  ",
+    "O  ",
+    "E  "
+  ],
+  "result": {
+    "count":1,
+    "id": "from_zero_to_infinity:time_alloy_shovel_coarse_grain"
+  }
+}

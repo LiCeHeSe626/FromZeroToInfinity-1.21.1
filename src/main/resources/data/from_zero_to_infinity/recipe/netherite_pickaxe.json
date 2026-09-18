@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "base": {
+    "item": "from_zero_to_infinity:tungsten_pickaxe"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:netherite_pickaxe"
+  },
+  "template": {
+    "item": "from_zero_to_infinity:template/netherite_upgrade_smithing_template"
+  }
+}

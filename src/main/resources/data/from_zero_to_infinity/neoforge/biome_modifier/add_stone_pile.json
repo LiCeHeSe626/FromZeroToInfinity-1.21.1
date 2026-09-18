@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": ["from_zero_to_infinity:stone_pile"],
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,23 @@
+{
+  "feature": "from_zero_to_infinity:modern_debris",
+  "placement": [
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:trapezoid",
+        "max_inclusive": {
+          "absolute": 13
+        },
+        "min_inclusive": {
+          "absolute": -59
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

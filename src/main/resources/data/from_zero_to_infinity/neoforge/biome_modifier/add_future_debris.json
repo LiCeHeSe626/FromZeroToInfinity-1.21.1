@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_end",
+  "features": ["from_zero_to_infinity:future_debris"],
+  "step": "underground_ores"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "C": {
+      "item": "from_zero_to_infinity:cobalt_ingot"
+    },
+    "H": {
+      "item": "from_zero_to_infinity:helium_ingot"
+    },
+    "L": {
+      "item": "from_zero_to_infinity:lithium_ingot"
+    },
+    "P": {
+      "item": "from_zero_to_infinity:platinum_ingot"
+    },
+    "E": {
+      "item": "from_zero_to_infinity:europium_ingot"
+    }
+  },
+  "pattern": [
+    "HLC",
+    "PE ",
+    "   "
+  ],
+  "result": {
+    "count":3,
+    "id": "from_zero_to_infinity:helicopter_ingot"
+  }
+}

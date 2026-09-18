@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "from_zero_to_infinity:bronze_ingot"
+    },
+    "title": {
+      "text": "Make Copper Great Again!"
+    },
+    "description": {
+      "text": "获得你的第一块青铜"
+    },
+    "frame": "task"
+  },
+  "parent": "from_zero_to_infinity:from_zero_to_infinity/fztiroot",
+  "criteria": {
+    "criterion_name": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "from_zero_to_infinity:bronze_ingot"
+          }
+        ]
+      }
+    }
+  }
+}

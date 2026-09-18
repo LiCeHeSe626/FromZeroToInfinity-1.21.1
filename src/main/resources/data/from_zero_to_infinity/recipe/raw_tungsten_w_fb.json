@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 75,
+  "experience": 1.0,
+  "ingredient": {
+    "item": "from_zero_to_infinity:wolframite"
+  },
+  "result": {
+    "id": "from_zero_to_infinity:raw_tungsten"
+  }
+}

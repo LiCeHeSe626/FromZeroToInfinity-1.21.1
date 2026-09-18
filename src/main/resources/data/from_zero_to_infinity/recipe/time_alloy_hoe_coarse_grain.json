@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "O": {
+      "item": "from_zero_to_infinity:overworldite_hoe"
+    },
+    "N": {
+      "item": "minecraft:netherite_hoe"
+    },
+    "E": {
+      "item": "from_zero_to_infinity:endite_hoe"
+    }
+  },
+  "pattern": [
+    "N  ",
+    "O  ",
+    "E  "
+  ],
+  "result": {
+    "count":1,
+    "id": "from_zero_to_infinity:time_alloy_hoe_coarse_grain"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "E": {
+      "item": "from_zero_to_infinity:template/endite_upgrade_smithing_template"
+    },
+    "N": {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    },
+    "O": {
+      "item": "from_zero_to_infinity:template/overworldite_upgrade_smithing_template"
+    },
+    "T": {
+      "item": "from_zero_to_infinity:time_alloy_ingot"
+    }
+  },
+  "pattern": [
+    "TET",
+    "TNT",
+    "TOT"
+  ],
+  "result": {
+    "count":3,
+    "id": "from_zero_to_infinity:template/time_upgrade_smithing_template"
+  }
+}
