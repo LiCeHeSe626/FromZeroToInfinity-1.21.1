@@ -64,6 +64,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.NEPTUNIUM_INGOT);//93
                         output.accept(ModItems.PLUTONIUM_INGOT);//94
                         output.accept(ModItems.OGANESSON_INGOT);//118
+                        output.accept(ModItems.DURANIUM_INGOT);//119
                         //alloys
                         output.accept(ModItems.BRASS_INGOT);
                         output.accept(ModItems.BRONZE_INGOT);//coppers
@@ -81,7 +82,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.OVERWORLDITE_INGOT);
                         output.accept(ModItems.ENDITE_INGOT);//!!!
 
-                        output.accept(ModItems.CLAY_BRICK);//clay
+
 
 
 
@@ -92,12 +93,17 @@ public class ModCreativeModeTabs {
                     .icon(()->new ItemStack(ModItems.SHARP_STONE.get()))
                     .title(Component.translatable("itemGroup.fzti_stone_age"))
                     .displayItems((parameters,output)->{
+                        output.accept(ModItems.CLAY_BRICK);//clay
                         output.accept(ModItems.SHARP_STONE);
+                        output.accept(ModItems.BRICK_DUST);
+                        output.accept(ModItems.DIRT_DUST);
+                        output.accept(ModItems.SAND_DUST);
                         output.accept(ModItems.NORMAL_STONE);
                         output.accept(ModItems.STONE_BLOCK);
                         output.accept(ModItems.CLAY_BUCKET);
                         output.accept(ModItems.WATER_CLAY_BUCKET);
                         output.accept(ModBlocks.STONE_PILE);
+                        output.accept(ModBlocks.STONE_MILL);
 
                     }).build());
     public  static final Supplier<CreativeModeTab>FZTI_ORES=

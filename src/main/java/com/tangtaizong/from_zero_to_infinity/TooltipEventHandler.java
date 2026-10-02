@@ -167,6 +167,9 @@ public class TooltipEventHandler {
         if (stack.getItem() == ModItems.OGANESSON_INGOT.get()) {
             event.getToolTip().add(Component.translatable("tooltip.from_zero_to_infinity.oganesson_ingot.desc"));
         }
+        if (stack.getItem() == ModItems.DURANIUM_INGOT.get()) {
+            event.getToolTip().add(Component.translatable("tooltip.from_zero_to_infinity.duranium_ingot.desc"));
+        }
 
 
 

@@ -53,6 +53,7 @@
   "item.from_zero_to_infinity.helicopter_ingot": "HeLiCoPtEr Ingot",
   "item.from_zero_to_infinity.yp_alloy_ingot": "YP Alloy Ingot",
   "item.from_zero_to_infinity.steel_cg_ingot": "Steel Coarse Grain Ingot",
+  "item.from_zero_to_infinity.duranium_ingot": "Duranium Ingot",
 
 
 
@@ -148,6 +149,7 @@
   "block.from_zero_to_infinity.modern_debris": "Modern Debris",
   "block.from_zero_to_infinity.future_debris": "Future Debris",
   "block.from_zero_to_infinity.stone_pile": "Stone Pile",
+  "block.from_zero_to_infinity.stone_mill": "Stone Mill",
 
 
   "block.from_zero_to_infinity.tin_block": "Tin Block",
@@ -163,7 +165,7 @@
 
 
   "itemGroup.fzti_material": "FZTI Materials",
-  "itemGroup.fzti_stone_age": "FZTI Stone Tools",
+  "itemGroup.fzti_stone_age": "FZTI Stone Age",
   "itemGroup.fzti_ores": "FZTI Ores",
   "itemGroup.fzti_tools": "FZTI Tools",
   "itemGroup.fzti_templates": "FZTI Templates",
@@ -213,6 +215,12 @@
   "message.from_zero_to_infinity.need_steel_tool": "Needs Steel Tool",
   "message.from_zero_to_infinity.need_cobalt_tool": "Needs Cobalt or Tungsten or Titanium Tool",
 
+  "item.from_zero_to_infinity.brick_dust": "Brick Dust",
+  "item.from_zero_to_infinity.dirt_dust": "Dirt Dust",
+  "item.from_zero_to_infinity.sand_dust": "Sand Dust",
+
+
+  "menu.from_zero_to_infinity.stone_mill": "Stone Mill",
 
   "item.from_zero_to_infinity.time_watch": "Time Watch",
 
@@ -268,5 +276,6 @@
   "tooltip.from_zero_to_infinity.uranium_ingot.desc": "U",
   "tooltip.from_zero_to_infinity.neptunium_ingot.desc": "Np",
   "tooltip.from_zero_to_infinity.plutonium_ingot.desc": "Pu",
-  "tooltip.from_zero_to_infinity.oganesson_ingot.desc": "Og"
+  "tooltip.from_zero_to_infinity.oganesson_ingot.desc": "Og",
+  "tooltip.from_zero_to_infinity.duranium_ingot.desc": "Du"
 }

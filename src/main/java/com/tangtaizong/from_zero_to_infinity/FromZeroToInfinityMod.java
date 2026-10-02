@@ -2,8 +2,11 @@ package com.tangtaizong.from_zero_to_infinity;
 
 import com.tangtaizong.from_zero_to_infinity.block.ModBlocks;
 import com.tangtaizong.from_zero_to_infinity.block.StonePileBlock;
+import com.tangtaizong.from_zero_to_infinity.blockentity.ModBlockEntities;
 import com.tangtaizong.from_zero_to_infinity.item.ModCreativeModeTabs;
 import com.tangtaizong.from_zero_to_infinity.item.ModItems;
+import com.tangtaizong.from_zero_to_infinity.menu.ModMenus;
+import com.tangtaizong.from_zero_to_infinity.recipe.ModRecipes;
 import net.minecraft.core.BlockPos;
 
 
@@ -59,6 +62,10 @@ public class FromZeroToInfinityMod {
         ModItems.register(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModBlockEntities.BLOCK_ENTITIES.register(modEventBus);
+        ModMenus.MENUS.register(modEventBus);
+        ModRecipes.RECIPE_TYPES.register(modEventBus);
+        ModRecipes.RECIPE_SERIALIZERS.register(modEventBus);
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (TutorialMod) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.

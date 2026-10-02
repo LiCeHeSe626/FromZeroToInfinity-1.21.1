@@ -53,6 +53,7 @@
   "item.from_zero_to_infinity.yp_alloy_ingot": "黄紫合金锭",
   "item.from_zero_to_infinity.steel_cg_ingot": "钢粗胚锭",
   "item.from_zero_to_infinity.clay_brick": "黏土砖",
+  "item.from_zero_to_infinity.duranium_ingot": "铿铀锭",
 
   "item.from_zero_to_infinity.bronze_pickaxe": "青铜镐",
   "item.from_zero_to_infinity.bronze_sword": "青铜剑",
@@ -151,6 +152,7 @@
   "block.from_zero_to_infinity.modern_debris": "现代残骸",
   "block.from_zero_to_infinity.future_debris": "未来残骸",
   "block.from_zero_to_infinity.stone_pile": "石子堆",
+  "block.from_zero_to_infinity.stone_mill": "石磨",
 
 
   "itemGroup.fzti_material": "从零到无穷大：材料",
@@ -200,6 +202,13 @@
 
   "item.from_zero_to_infinity.time_watch": "时间怀表",
 
+
+  "item.from_zero_to_infinity.brick_dust": "砖粉",
+  "item.from_zero_to_infinity.dirt_dust": "泥土粉",
+  "item.from_zero_to_infinity.sand_dust": "细沙粉",
+
+
+  "menu.from_zero_to_infinity.stone_mill": "石磨",
 
   "tooltip.from_zero_to_infinity.time_alloy_ingot.desc": "§7一种金属，掌握时间之力",
   "tooltip.from_zero_to_infinity.time_alloy_ingot.desc1": "T",
@@ -253,5 +262,6 @@
   "tooltip.from_zero_to_infinity.uranium_ingot.desc": "U",
   "tooltip.from_zero_to_infinity.neptunium_ingot.desc": "Np",
   "tooltip.from_zero_to_infinity.plutonium_ingot.desc": "Pu",
-  "tooltip.from_zero_to_infinity.oganesson_ingot.desc": "Og"
+  "tooltip.from_zero_to_infinity.oganesson_ingot.desc": "Og",
+  "tooltip.from_zero_to_infinity.duranium_ingot.desc": "Du"
 }

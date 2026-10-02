@@ -68,6 +68,9 @@ public class ModBlocks {
     public static final DeferredBlock<Block> STONE_PILE=
             register("stone_pile",()->new StonePileBlock(BlockBehaviour.Properties.of().strength(0.5F,1.0F).noOcclusion()
             ));
+    public static final DeferredBlock<Block> STONE_MILL=
+            register("stone_mill",()->new StoneMillBlock(BlockBehaviour.Properties.of().strength(1.5F,3.0F).noOcclusion()
+            ));
 
 
     private static <T extends Block> void registerBlockItems(String name, DeferredBlock<T> block) {

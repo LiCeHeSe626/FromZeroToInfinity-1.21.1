@@ -131,9 +131,16 @@ public class ModItems {
             ITEMS.register("yp_alloy_ingot",() -> new Item(new Item.Properties()));
     public static final DeferredItem<Item>STEEL_CG_INGOT=
             ITEMS.register("steel_cg_ingot",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>DURANIUM_INGOT=
+            ITEMS.register("duranium_ingot",() -> new Item(new Item.Properties()));
 
 
-
+    public static final DeferredItem<Item>BRICK_DUST=
+            ITEMS.register("dust/brick_dust",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>DIRT_DUST=
+            ITEMS.register("dust/dirt_dust",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>SAND_DUST=
+            ITEMS.register("dust/sand_dust",() -> new Item(new Item.Properties()));
 
 
     public static final DeferredItem<Item>TIME_WATCH=

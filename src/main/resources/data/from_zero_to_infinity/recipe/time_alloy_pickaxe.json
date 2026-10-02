@@ -8,7 +8,7 @@
   },
   "result": {
     "count": 1,
-    "id": "from_zero_to_infinity:pick"
+    "id": "from_zero_to_infinity:time_alloy_pickaxe"
   },
   "template": {
     "item": "from_zero_to_infinity:template/time_upgrade_smithing_template"
