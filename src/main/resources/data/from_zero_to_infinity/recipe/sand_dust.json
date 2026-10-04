@@ -1,0 +1,6 @@
+{
+  "type": "from_zero_to_infinity:milling",
+  "ingredient": { "item": "minecraft:sand" },
+  "result": { "id": "from_zero_to_infinity:dust/sand_dust", "count": 10 },
+  "processing_time": 320
+}

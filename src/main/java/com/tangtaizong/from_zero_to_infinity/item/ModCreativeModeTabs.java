@@ -104,6 +104,16 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.WATER_CLAY_BUCKET);
                         output.accept(ModBlocks.STONE_PILE);
                         output.accept(ModBlocks.STONE_MILL);
+                        output.accept(ModBlocks.PBF_AIR_INLET);
+                        output.accept(ModBlocks.PBF_AIR_OUTLET);
+                        output.accept(ModBlocks.PBF_BRICKS);
+                        output.accept(ModBlocks.PBF_CORE);
+                        output.accept(ModBlocks.PBF_DISCHARGE_INLET);
+                        output.accept(ModBlocks.PBF_DISCHARGE_OUTLET);
+
+
+                        output.accept(ModItems.FIRECLAY);
+                        output.accept(ModItems.PBFCLAY_BRICK);
 
                     }).build());
     public  static final Supplier<CreativeModeTab>FZTI_ORES=

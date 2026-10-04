@@ -1,7 +1,20 @@
+
 {
   "variants": {
-    "": {
-      "model": "from_zero_to_infinity:block/stone_mill"
+    "facing=east": {
+      "model":  "from_zero_to_infinity:block/stone_mill",
+      "y": 270
+    },
+    "facing=north": {
+      "model":  "from_zero_to_infinity:block/stone_mill",
+      "y": 180
+    },
+    "facing=south": {
+      "model":  "from_zero_to_infinity:block/stone_mill"
+    },
+    "facing=west": {
+      "model":  "from_zero_to_infinity:block/stone_mill",
+      "y": 90
     }
   }
 }

@@ -141,6 +141,16 @@ public class ModItems {
             ITEMS.register("dust/dirt_dust",() -> new Item(new Item.Properties()));
     public static final DeferredItem<Item>SAND_DUST=
             ITEMS.register("dust/sand_dust",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>FIRECLAY=
+            ITEMS.register("fireclay",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>PBFCLAY_BRICK=
+            ITEMS.register("pbfclay_brick",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>PBFCLAY_PLATE=
+            ITEMS.register("pbfclay_plate",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>PBFCLAY_PIPE=
+            ITEMS.register("pbfclay_pipe",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>PBFCLAY_BALL=
+            ITEMS.register("pbfclay_ball",() -> new Item(new Item.Properties()));
 
 
     public static final DeferredItem<Item>TIME_WATCH=

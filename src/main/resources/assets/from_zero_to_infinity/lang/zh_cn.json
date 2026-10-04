@@ -153,6 +153,16 @@
   "block.from_zero_to_infinity.future_debris": "未来残骸",
   "block.from_zero_to_infinity.stone_pile": "石子堆",
   "block.from_zero_to_infinity.stone_mill": "石磨",
+  "item.from_zero_to_infinity.fireclay": "耐火黏土",
+  "item.from_zero_to_infinity.pbfclay_brick": "土高炉黏土砖",
+  "block.from_zero_to_infinity.pbf_bricks": "土高炉砖块",
+  "block.from_zero_to_infinity.pbf_core": "土高炉核心",
+  "block.from_zero_to_infinity.pbf_air_inlet": "土高炉进气口",
+  "block.from_zero_to_infinity.pbf_air_outlet": "土高炉出气口",
+  "block.from_zero_to_infinity.pbf_discharge_inlet": "土高炉进料口",
+  "block.from_zero_to_infinity.pbf_discharge_outlet": "土高炉出料口",
+
+
 
 
   "itemGroup.fzti_material": "从零到无穷大：材料",
@@ -203,13 +213,14 @@
   "item.from_zero_to_infinity.time_watch": "时间怀表",
 
 
-  "item.from_zero_to_infinity.brick_dust": "砖粉",
-  "item.from_zero_to_infinity.dirt_dust": "泥土粉",
-  "item.from_zero_to_infinity.sand_dust": "细沙粉",
+  "item.from_zero_to_infinity.dust.brick_dust": "砖粉",
+  "item.from_zero_to_infinity.dust.dirt_dust": "泥土粉",
+  "item.from_zero_to_infinity.dust.sand_dust": "细沙粉",
 
 
   "menu.from_zero_to_infinity.stone_mill": "石磨",
-
+  "tooltip.from_zero_to_infinity.fireclay.desc":"一种可以承受高温的黏土",
+  "tooltip.from_zero_to_infinity.pbfclay_brick.desc":"致密的耐火黏土...",
   "tooltip.from_zero_to_infinity.time_alloy_ingot.desc": "§7一种金属，掌握时间之力",
   "tooltip.from_zero_to_infinity.time_alloy_ingot.desc1": "T",
   "tooltip.from_zero_to_infinity.space_alloy_ingot.desc": "§7一种金属，掌握空间之力",

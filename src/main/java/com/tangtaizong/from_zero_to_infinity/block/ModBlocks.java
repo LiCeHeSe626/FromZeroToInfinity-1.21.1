@@ -69,9 +69,23 @@ public class ModBlocks {
             register("stone_pile",()->new StonePileBlock(BlockBehaviour.Properties.of().strength(0.5F,1.0F).noOcclusion()
             ));
     public static final DeferredBlock<Block> STONE_MILL=
-            register("stone_mill",()->new StoneMillBlock(BlockBehaviour.Properties.of().strength(1.5F,3.0F).noOcclusion()
+            register("stone_mill",()->new StoneMillBlock(BlockBehaviour.Properties.of().strength(0.6F,1.8F).noOcclusion()
             ));
 
+
+    //pbf
+    public static final DeferredBlock<Block> PBF_BRICKS=
+            register("pbf_bricks",()->new Block(BlockBehaviour.Properties.of().strength(0.6F,3.0F).noOcclusion()));
+    public static final DeferredBlock<Block> PBF_CORE=
+            register("pbf_core",()->new Block(BlockBehaviour.Properties.of().strength(0.6F,3.0F).noOcclusion()));
+    public static final DeferredBlock<Block> PBF_AIR_INLET=
+            register("pbf_air_inlet",()->new PbfBlocks(BlockBehaviour.Properties.of().strength(0.6F,3.0F).noOcclusion()));
+    public static final DeferredBlock<Block> PBF_AIR_OUTLET=
+            register("pbf_air_outlet",()->new Block(BlockBehaviour.Properties.of().strength(0.6F,3.0F).noOcclusion()));
+    public static final DeferredBlock<Block> PBF_DISCHARGE_INLET=
+            register("pbf_discharge_inlet",()->new Block(BlockBehaviour.Properties.of().strength(0.6F,3.0F).noOcclusion()));
+    public static final DeferredBlock<Block> PBF_DISCHARGE_OUTLET=
+            register("pbf_discharge_outlet",()->new PbfBlocks(BlockBehaviour.Properties.of().strength(0.6F,3.0F).noOcclusion()));
 
     private static <T extends Block> void registerBlockItems(String name, DeferredBlock<T> block) {
         ModItems.ITEMS.register(name, ()->new BlockItem(block.get(),new Item.Properties()));

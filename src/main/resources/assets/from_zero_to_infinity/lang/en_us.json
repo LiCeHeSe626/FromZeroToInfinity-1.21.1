@@ -150,6 +150,15 @@
   "block.from_zero_to_infinity.future_debris": "Future Debris",
   "block.from_zero_to_infinity.stone_pile": "Stone Pile",
   "block.from_zero_to_infinity.stone_mill": "Stone Mill",
+  "item.from_zero_to_infinity.fireclay": "Fire Clay",
+  "item.from_zero_to_infinity.pbfclay_brick": "PBF Clay Brick",
+  "block.from_zero_to_infinity.pbf_bricks": "PBF Bricks",
+  "block.from_zero_to_infinity.pbf_core": "PBF Core",
+  "block.from_zero_to_infinity.pbf_air_inlet": "PBF Air Inlet",
+  "block.from_zero_to_infinity.pbf_air_outlet": "PBF Air Outlet",
+  "block.from_zero_to_infinity.pbf_discharge_inlet": "PBF Discharge Inlet",
+  "block.from_zero_to_infinity.pbf_discharge_outlet": "PBF Discharge Outlet",
+
 
 
   "block.from_zero_to_infinity.tin_block": "Tin Block",
@@ -215,15 +224,19 @@
   "message.from_zero_to_infinity.need_steel_tool": "Needs Steel Tool",
   "message.from_zero_to_infinity.need_cobalt_tool": "Needs Cobalt or Tungsten or Titanium Tool",
 
-  "item.from_zero_to_infinity.brick_dust": "Brick Dust",
-  "item.from_zero_to_infinity.dirt_dust": "Dirt Dust",
-  "item.from_zero_to_infinity.sand_dust": "Sand Dust",
+  "item.from_zero_to_infinity.dust.brick_dust": "Brick Dust",
+  "item.from_zero_to_infinity.dust.dirt_dust": "Dirt Dust",
+  "item.from_zero_to_infinity.dust.sand_dust": "Sand Dust",
 
 
   "menu.from_zero_to_infinity.stone_mill": "Stone Mill",
 
   "item.from_zero_to_infinity.time_watch": "Time Watch",
 
+
+
+  "tooltip.from_zero_to_infinity.fireclay.desc":"A Kind of Clay Can Bear a High Temperature",
+  "tooltip.from_zero_to_infinity.pbfclay_brick.desc":"A Kind of Dense Fireclay",
   "tooltip.from_zero_to_infinity.time_alloy_ingot.desc": "§7A Kind of Metal,Full of the Power of Time",
   "tooltip.from_zero_to_infinity.time_alloy_ingot.desc1": "T",
   "tooltip.from_zero_to_infinity.space_alloy_ingot.desc": "§7A Kind of Metal,Full of the Power of Time",

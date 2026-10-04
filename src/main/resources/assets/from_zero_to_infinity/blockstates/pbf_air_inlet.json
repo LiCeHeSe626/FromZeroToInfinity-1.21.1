@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model":  "from_zero_to_infinity:block/pbf_air_inlet",
+      "y": 270
+    },
+    "facing=north": {
+      "model":  "from_zero_to_infinity:block/pbf_air_inlet",
+      "y": 180
+    },
+    "facing=south": {
+      "model":  "from_zero_to_infinity:block/pbf_air_inlet"
+    },
+    "facing=west": {
+      "model":  "from_zero_to_infinity:block/pbf_air_inlet",
+      "y": 90
+    }
+  }
+}

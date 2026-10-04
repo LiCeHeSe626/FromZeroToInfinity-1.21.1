@@ -1,8 +1,10 @@
 package com.tangtaizong.from_zero_to_infinity.recipe;
 
+import com.mojang.serialization.Codec;
 import com.mojang.serialization.MapCodec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
 import net.minecraft.network.RegistryFriendlyByteBuf;
+import net.minecraft.network.codec.ByteBufCodecs;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.Ingredient;
@@ -12,13 +14,16 @@ public class MillingRecipeSerializer implements RecipeSerializer<MillingRecipe> 
 
     public static final MapCodec<MillingRecipe> CODEC = RecordCodecBuilder.mapCodec(inst -> inst.group(
             Ingredient.CODEC.fieldOf("ingredient").forGetter(MillingRecipe::getInputItem),
-            ItemStack.CODEC.fieldOf("result").forGetter(MillingRecipe::getResult)
+            ItemStack.CODEC.fieldOf("result").forGetter(MillingRecipe::getResult),
+            Codec.INT.optionalFieldOf("processing_time", 200)
+                    .forGetter(MillingRecipe::getProcessingTime)   // ← 新增，默认 200
     ).apply(inst, MillingRecipe::new));
 
     public static final StreamCodec<RegistryFriendlyByteBuf, MillingRecipe> STREAM_CODEC =
             StreamCodec.composite(
                     Ingredient.CONTENTS_STREAM_CODEC, MillingRecipe::getInputItem,
                     ItemStack.STREAM_CODEC, MillingRecipe::getResult,
+                    ByteBufCodecs.VAR_INT, MillingRecipe::getProcessingTime,  // ← 新增
                     MillingRecipe::new
             );
 

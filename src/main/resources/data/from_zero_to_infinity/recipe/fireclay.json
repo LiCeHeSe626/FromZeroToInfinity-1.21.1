@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "from_zero_to_infinity:dust/sand_dust"
+    },
+    {
+      "item": "from_zero_to_infinity:dust/dirt_dust"
+    },
+    {
+      "item": "from_zero_to_infinity:dust/brick_dust"
+    },
+    {
+      "item": "from_zero_to_infinity:clay_brick"
+    },
+    {
+      "item": "from_zero_to_infinity:clay_brick"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "from_zero_to_infinity:fireclay"
+  }
+}

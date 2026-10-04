@@ -1,3 +1,6 @@
 {
-  "parent": "from_zero_to_infinity:block/stone_mill"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "from_zero_to_infinity:item/stone_mill"
+  }
 }

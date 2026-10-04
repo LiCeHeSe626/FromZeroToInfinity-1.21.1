@@ -1,5 +1,6 @@
 {
   "type": "from_zero_to_infinity:milling",
   "ingredient": { "item": "minecraft:brick" },
-  "result": { "id": "from_zero_to_infinity:dust/brick_dust", "count": 1 }
+  "result": { "id": "from_zero_to_infinity:dust/brick_dust", "count": 1 },
+  "processing_time": 150
 }

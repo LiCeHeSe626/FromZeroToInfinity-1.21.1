@@ -173,6 +173,12 @@ public class TooltipEventHandler {
 
 
 
+        if (stack.getItem() == ModItems.FIRECLAY.get()) {
+            event.getToolTip().add(Component.translatable("tooltip.from_zero_to_infinity.fireclay.desc"));
+        }
+        if (stack.getItem() == ModItems.PBFCLAY_BRICK.get()) {
+            event.getToolTip().add(Component.translatable("tooltip.from_zero_to_infinity.pbfclay_brick.desc"));
+        }
 
 
 

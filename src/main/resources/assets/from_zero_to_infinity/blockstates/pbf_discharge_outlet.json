@@ -1,0 +1,20 @@
+
+{
+  "variants": {
+    "facing=east": {
+      "model":  "from_zero_to_infinity:block/pbf_discharge_outlet",
+      "y": 270
+    },
+    "facing=north": {
+      "model":  "from_zero_to_infinity:block/pbf_discharge_outlet",
+      "y": 180
+    },
+    "facing=south": {
+      "model":  "from_zero_to_infinity:block/pbf_discharge_outlet"
+    },
+    "facing=west": {
+      "model":  "from_zero_to_infinity:block/pbf_discharge_outlet",
+      "y": 90
+    }
+  }
+}

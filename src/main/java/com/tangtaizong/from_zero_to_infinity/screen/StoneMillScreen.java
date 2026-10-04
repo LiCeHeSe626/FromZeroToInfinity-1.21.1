@@ -12,6 +12,9 @@ public class StoneMillScreen extends AbstractContainerScreen<StoneMillMenu> {
 
     private static final ResourceLocation BACKGROUND = ResourceLocation.fromNamespaceAndPath(
             FromZeroToInfinityMod.MOD_ID, "textures/gui/container/stone_mill.png");
+    private static final int TEXTURE_WIDTH = 256;
+    private static final int TEXTURE_HEIGHT = 256;
+
 
     public StoneMillScreen(StoneMillMenu menu, Inventory playerInv, Component title) {
         super(menu, playerInv, title);
@@ -27,7 +30,16 @@ public class StoneMillScreen extends AbstractContainerScreen<StoneMillMenu> {
     @Override
     protected void renderBg(GuiGraphics graphics, float partialTick, int mouseX, int mouseY) {
         graphics.blit(BACKGROUND, this.leftPos, this.topPos, 0, 0,
-                this.imageWidth, this.imageHeight);
+                this.imageWidth, this.imageHeight, TEXTURE_WIDTH, TEXTURE_HEIGHT);
+        int progress = this.menu.getProgress();
+        int max = this.menu.getMaxProgress();
+        if (max > 0) {
+            int width = (int) ((float) progress / max *24);
+            graphics.fill(this.leftPos + 82, this.topPos + 41,
+                    this.leftPos + 82 +width, this.topPos + 41 + 3,
+                    0xFFffffff);
+        }
+
     }
 
     @Override

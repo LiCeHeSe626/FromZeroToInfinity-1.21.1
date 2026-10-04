@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "from_zero_to_infinity:fireclay"
+    },
+    {
+      "item": "from_zero_to_infinity:fireclay"
+    },
+    {
+      "item": "from_zero_to_infinity:fireclay"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "id": "from_zero_to_infinity:pbfclay_brick"
+  }
+}
