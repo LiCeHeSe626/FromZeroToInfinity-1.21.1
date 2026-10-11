@@ -33,8 +33,11 @@ public class StoneMillScreen extends AbstractContainerScreen<StoneMillMenu> {
                 this.imageWidth, this.imageHeight, TEXTURE_WIDTH, TEXTURE_HEIGHT);
         int progress = this.menu.getProgress();
         int max = this.menu.getMaxProgress();
+
+
         if (max > 0) {
             int width = (int) ((float) progress / max *24);
+
             graphics.fill(this.leftPos + 82, this.topPos + 41,
                     this.leftPos + 82 +width, this.topPos + 41 + 3,
                     0xFFffffff);

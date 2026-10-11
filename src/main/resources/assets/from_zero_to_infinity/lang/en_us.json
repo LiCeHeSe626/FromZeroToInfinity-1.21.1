@@ -51,7 +51,7 @@
   "item.from_zero_to_infinity.licehese_ingot": "LiCeHeSe Ingot",
   "item.from_zero_to_infinity.wrought_iron_ingot": "Wrought Iron Ingot",
   "item.from_zero_to_infinity.helicopter_ingot": "HeLiCoPtEr Ingot",
-  "item.from_zero_to_infinity.yp_alloy_ingot": "YP Alloy Ingot",
+  "item.from_zero_to_infinity.yp_alloy_ingot": "Yelpurium Ingot",
   "item.from_zero_to_infinity.steel_cg_ingot": "Steel Coarse Grain Ingot",
   "item.from_zero_to_infinity.duranium_ingot": "Duranium Ingot",
 
@@ -158,6 +158,8 @@
   "block.from_zero_to_infinity.pbf_air_outlet": "PBF Air Outlet",
   "block.from_zero_to_infinity.pbf_discharge_inlet": "PBF Discharge Inlet",
   "block.from_zero_to_infinity.pbf_discharge_outlet": "PBF Discharge Outlet",
+  "menu.from_zero_to_infinity.pbf_core": "Primitive Blast Furnace",
+  "message.from_zero_to_infinity.pbf_not_formed": "PBF structure not formed",
 
 
 

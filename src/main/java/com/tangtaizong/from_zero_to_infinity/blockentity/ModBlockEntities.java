@@ -15,4 +15,8 @@ public class ModBlockEntities {
             BLOCK_ENTITIES.register("stone_mill",
                     () -> BlockEntityType.Builder.of(StoneMillBlockEntity::new,
                             ModBlocks.STONE_MILL.get()).build(null));
+    public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<PBFCoreBlockEntity>> PBF_CORE =
+            BLOCK_ENTITIES.register("pbf_core",
+                    () -> BlockEntityType.Builder.of(PBFCoreBlockEntity::new,
+                            ModBlocks.PBF_CORE.get()).build(null));
 }

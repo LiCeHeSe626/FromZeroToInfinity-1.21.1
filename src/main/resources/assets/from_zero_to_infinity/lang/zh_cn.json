@@ -50,7 +50,7 @@
   "item.from_zero_to_infinity.europium_ingot": "铒锭",
   "item.from_zero_to_infinity.licehese_ingot": "LiCeHeSe锭",
   "item.from_zero_to_infinity.helicopter_ingot": "HeLiCoPtEr锭",
-  "item.from_zero_to_infinity.yp_alloy_ingot": "黄紫合金锭",
+  "item.from_zero_to_infinity.yp_alloy_ingot": "Yp锭",
   "item.from_zero_to_infinity.steel_cg_ingot": "钢粗胚锭",
   "item.from_zero_to_infinity.clay_brick": "黏土砖",
   "item.from_zero_to_infinity.duranium_ingot": "铿铀锭",
@@ -161,6 +161,8 @@
   "block.from_zero_to_infinity.pbf_air_outlet": "土高炉出气口",
   "block.from_zero_to_infinity.pbf_discharge_inlet": "土高炉进料口",
   "block.from_zero_to_infinity.pbf_discharge_outlet": "土高炉出料口",
+  "menu.from_zero_to_infinity.pbf_core": "土高炉",
+  "message.from_zero_to_infinity.pbf_not_formed": "土高炉结构未成型",
 
 
 
