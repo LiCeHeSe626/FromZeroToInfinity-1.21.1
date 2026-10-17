@@ -133,6 +133,33 @@ public class ModItems {
             ITEMS.register("steel_cg_ingot",() -> new Item(new Item.Properties()));
     public static final DeferredItem<Item>DURANIUM_INGOT=
             ITEMS.register("duranium_ingot",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>DOURANIUM_INGOT=
+            ITEMS.register("douranium_ingot",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>ADAMANTIUM_INGOT=
+            ITEMS.register("adamantium_ingot",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>ENRICHED_NAQUADAH_INGOT=
+            ITEMS.register("enriched_naquadah_ingot",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>EUPHEMIUM_INGOT=
+            ITEMS.register("euphemium_ingot",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>GHIORSIUM_INGOT=
+            ITEMS.register("ghiorsium_ingot",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>MITHRIL_INGOT=
+            ITEMS.register("mithril_ingot",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>NAQUADAH_INGOT=
+            ITEMS.register("naquadah_ingot",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>NAQUADRIA_INGOT=
+            ITEMS.register("naquadria_ingot",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>QUANTANIUM_INGOT=
+            ITEMS.register("quantanium_ingot",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>SCHRABIDIUM_INGOT=
+            ITEMS.register("schrabidium_ingot",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>TRINIUM_INGOT=
+            ITEMS.register("trinium_ingot",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>TRITANIUM_INGOT=
+            ITEMS.register("tritanium_ingot",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>VIBRANIUM_INGOT=
+            ITEMS.register("vibranium_ingot",() -> new Item(new Item.Properties()));
+
 
 
     public static final DeferredItem<Item>BRICK_DUST=

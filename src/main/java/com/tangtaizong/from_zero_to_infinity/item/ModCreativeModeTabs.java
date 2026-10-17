@@ -65,6 +65,21 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.PLUTONIUM_INGOT);//94
                         output.accept(ModItems.OGANESSON_INGOT);//118
                         output.accept(ModItems.DURANIUM_INGOT);//119
+                        output.accept(ModItems.TRITANIUM_INGOT);//120
+                        output.accept(ModItems.SCHRABIDIUM_INGOT);//126
+                        output.accept(ModItems.GHIORSIUM_INGOT);//132
+                        output.accept(ModItems.NAQUADAH_INGOT);//174
+                        output.accept(ModItems.NAQUADRIA_INGOT);//174
+                        output.accept(ModItems.ENRICHED_NAQUADAH_INGOT);//174
+                        output.accept(ModItems.TRINIUM_INGOT);//175
+                        output.accept(ModItems.MITHRIL_INGOT);//176
+                        output.accept(ModItems.ADAMANTIUM_INGOT);
+                        output.accept(ModItems.VIBRANIUM_INGOT);
+
+                        output.accept(ModItems.EUROPIUM_INGOT);
+
+                        output.accept(ModItems.QUANTANIUM_INGOT);
+                        output.accept(ModItems.DOURANIUM_INGOT);//184
                         //alloys
                         output.accept(ModItems.BRASS_INGOT);
                         output.accept(ModItems.BRONZE_INGOT);//coppers
