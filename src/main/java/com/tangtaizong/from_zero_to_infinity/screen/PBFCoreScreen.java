@@ -30,6 +30,26 @@ public class PBFCoreScreen extends AbstractContainerScreen<PBFCoreMenu> {
     protected void renderBg(GuiGraphics graphics, float partialTick, int mouseX, int mouseY) {
         graphics.blit(BACKGROUND, this.leftPos, this.topPos, 0, 0,
                 this.imageWidth, this.imageHeight, TEXTURE_WIDTH, TEXTURE_HEIGHT);
+
+
+        int progress = this.menu.getProgress();
+        int maxProgress = this.menu.getMaxProgress();
+        if (maxProgress > 0) {
+            int w = (int) ((float) progress / maxProgress * 24);
+            graphics.fill(this.leftPos + 76, this.topPos + 35,
+                    this.leftPos + 76 + w, this.topPos + 35 + 16,
+                    0xFF808080);
+        }
+
+
+        int burnTime = this.menu.getBurnTime();
+        int burnDuration = this.menu.getBurnDuration();
+        if (burnDuration > 0) {
+            int h = (int) ((float) burnTime / burnDuration * 14);
+            graphics.fill(this.leftPos + 27, this.topPos + 71 + (14 - h),
+                    this.leftPos + 27 + 14, this.topPos + 71 + 14,
+                    0xFFFF6600);
+        }
     }
 
     @Override

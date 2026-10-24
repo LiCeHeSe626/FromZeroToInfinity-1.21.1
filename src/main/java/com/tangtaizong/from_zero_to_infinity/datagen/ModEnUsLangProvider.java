@@ -12,6 +12,8 @@ public class ModEnUsLangProvider extends LanguageProvider {
 
     @Override
     protected void addTranslations() {
+        //add(ModItems.TRITANIUM_INGOT.get(), "Tritanium Ingot");
+        add(ModItems.IXENONIUM_INGOT.get(), "IXENONIUM_INGOT");
 
 
     }

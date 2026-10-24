@@ -20,6 +20,13 @@ public class ModRecipes {
                     () -> RecipeType.<MillingRecipe>simple(
                             ResourceLocation.fromNamespaceAndPath(FromZeroToInfinityMod.MOD_ID, "milling")));
 
+    public static final DeferredHolder<RecipeType<?>, RecipeType<PBFRecipe>> PBF_TYPE =
+            RECIPE_TYPES.register("pbf",
+                    () -> RecipeType.<PBFRecipe>simple(
+                            ResourceLocation.fromNamespaceAndPath(FromZeroToInfinityMod.MOD_ID, "pbf")));
+
+    public static final DeferredHolder<RecipeSerializer<?>, RecipeSerializer<PBFRecipe>> PBF_SERIALIZER =
+            RECIPE_SERIALIZERS.register("pbf", PBFRecipeSerializer::new);
     public static final DeferredHolder<RecipeSerializer<?>, RecipeSerializer<MillingRecipe>> MILLING_SERIALIZER =
             RECIPE_SERIALIZERS.register("milling", MillingRecipeSerializer::new);
 }

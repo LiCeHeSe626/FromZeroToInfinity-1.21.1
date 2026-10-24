@@ -159,6 +159,27 @@ public class ModItems {
             ITEMS.register("tritanium_ingot",() -> new Item(new Item.Properties()));
     public static final DeferredItem<Item>VIBRANIUM_INGOT=
             ITEMS.register("vibranium_ingot",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>IXENONIUM_INGOT=
+            ITEMS.register("ixenonium_ingot",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>MASS_ALLOY_INGOT=
+            ITEMS.register("mass_alloy_ingot",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>EM_ALLOY_INGOT=
+            ITEMS.register("em_alloy_ingot",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>LIGHT_ALLOY_INGOT=
+            ITEMS.register("light_alloy_ingot",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>MATTER_ALLOY_INGOT=
+            ITEMS.register("matter_alloy_ingot",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>WAVE_ALLOY_INGOT=
+            ITEMS.register("wave_alloy_ingot",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>TEMPERATURE_ALLOY_INGOT=
+            ITEMS.register("temperature_alloy_ingot",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>FOREVER_INGOT=
+            ITEMS.register("forever_ingot",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>TIMESPACE_INGOT=
+            ITEMS.register("timespace_ingot",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>ENTROPY_INGOT=
+            ITEMS.register("entropy_ingot",() -> new Item(new Item.Properties()));
+
 
 
 

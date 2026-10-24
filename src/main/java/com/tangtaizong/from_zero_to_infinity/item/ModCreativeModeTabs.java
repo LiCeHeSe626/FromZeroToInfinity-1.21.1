@@ -80,6 +80,7 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModItems.QUANTANIUM_INGOT);
                         output.accept(ModItems.DOURANIUM_INGOT);//184
+                        output.accept(ModItems.IXENONIUM_INGOT);
                         //alloys
                         output.accept(ModItems.BRASS_INGOT);
                         output.accept(ModItems.BRONZE_INGOT);//coppers
@@ -89,8 +90,17 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.STEEL_INGOT);//irons
                         output.accept(ModItems.HELICOPTER_INGOT);
                         output.accept(ModItems.LICEHESE_INGOT);//???
-                        output.accept(ModItems.SPACE_ALLOY_INGOT);
                         output.accept(ModItems.TIME_ALLOY_INGOT);
+                        output.accept(ModItems.SPACE_ALLOY_INGOT);
+                        output.accept(ModItems.MASS_ALLOY_INGOT);
+                        output.accept(ModItems.TEMPERATURE_ALLOY_INGOT);
+                        output.accept(ModItems.EM_ALLOY_INGOT);
+                        output.accept(ModItems.MATTER_ALLOY_INGOT);
+                        output.accept(ModItems.LIGHT_ALLOY_INGOT);
+                        output.accept(ModItems.WAVE_ALLOY_INGOT);
+                        output.accept(ModItems.TIMESPACE_INGOT);
+                        output.accept(ModItems.FOREVER_INGOT);
+                        output.accept(ModItems.ENTROPY_INGOT);
                         output.accept(ModItems.YP_ALLOY_INGOT);
                         output.accept(ModItems.ENDITE_SCRAP);
                         output.accept(ModItems.OVERWORLDITE_SCRAP);

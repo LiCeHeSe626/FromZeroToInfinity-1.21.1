@@ -5,8 +5,10 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.inventory.ContainerLevelAccess;
+import net.minecraft.world.inventory.DataSlot;
 import net.minecraft.world.inventory.Slot;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity;
 import net.neoforged.neoforge.items.IItemHandler;
 import net.neoforged.neoforge.items.ItemStackHandler;
 import net.neoforged.neoforge.items.SlotItemHandler;
@@ -15,8 +17,13 @@ public class PBFCoreMenu extends AbstractContainerMenu {
 
     private final ContainerLevelAccess access;
 
+    private final DataSlot progressSlot;
+    private final DataSlot maxProgressSlot;
+    private final DataSlot burnTimeSlot;
+    private final DataSlot burnDurationSlot;
+
     public PBFCoreMenu(int containerId, Inventory playerInv) {
-        this(containerId, playerInv, new ItemStackHandler(2),
+        this(containerId, playerInv, new ItemStackHandler(PBFCoreBlockEntity.TOTAL_SLOTS),
                 ContainerLevelAccess.NULL, null);
     }
 
@@ -27,8 +34,24 @@ public class PBFCoreMenu extends AbstractContainerMenu {
         super(ModMenus.PBF_CORE.get(), containerId);
         this.access = access;
 
-        this.addSlot(new SlotItemHandler(dataInventory, 0, 56, 35));
-        this.addSlot(new SlotItemHandler(dataInventory, 1, 116, 35) {
+        for (int i = 0; i < PBFCoreBlockEntity.INPUT_COUNT; i++) {
+            int row = i / 3;
+            int col = i % 3;
+            this.addSlot(new SlotItemHandler(dataInventory,
+                    PBFCoreBlockEntity.INPUT_START + i,
+                    26 + col * 18, 17 + row * 18));
+        }
+
+        this.addSlot(new SlotItemHandler(dataInventory,
+                PBFCoreBlockEntity.FUEL_SLOT, 26, 71) {
+            @Override
+            public boolean mayPlace(ItemStack stack) {
+                return AbstractFurnaceBlockEntity.getFuel().containsKey(stack.getItem());
+            }
+        });
+
+        this.addSlot(new SlotItemHandler(dataInventory,
+                PBFCoreBlockEntity.SOLID_OUTPUT, 134, 44) {
             @Override public boolean mayPlace(ItemStack stack) { return false; }
         });
 
@@ -39,6 +62,29 @@ public class PBFCoreMenu extends AbstractContainerMenu {
 
         for (int col = 0; col < 9; col++)
             this.addSlot(new Slot(playerInv, col, 8 + col * 18, 142));
+
+        if (core != null) {
+            this.progressSlot = slot(core::getProgress);
+            this.maxProgressSlot = slot(core::getMaxProgress);
+            this.burnTimeSlot = slot(core::getBurnTime);
+            this.burnDurationSlot = slot(core::getBurnDuration);
+        } else {
+            this.progressSlot = DataSlot.standalone();
+            this.maxProgressSlot = DataSlot.standalone();
+            this.burnTimeSlot = DataSlot.standalone();
+            this.burnDurationSlot = DataSlot.standalone();
+        }
+        this.addDataSlot(progressSlot);
+        this.addDataSlot(maxProgressSlot);
+        this.addDataSlot(burnTimeSlot);
+        this.addDataSlot(burnDurationSlot);
+    }
+
+    private static DataSlot slot(java.util.function.IntSupplier getter) {
+        return new DataSlot() {
+            @Override public int get() { return getter.getAsInt(); }
+            @Override public void set(int value) { }
+        };
     }
 
     @Override
@@ -56,17 +102,24 @@ public class PBFCoreMenu extends AbstractContainerMenu {
             ItemStack rawStack = slot.getItem();
             quickMovedStack = rawStack.copy();
 
-            if (index == 1) {
-                if (!this.moveItemStackTo(rawStack, 2, 38, true)) return ItemStack.EMPTY;
+            if (index == 7) {
+                if (!this.moveItemStackTo(rawStack, 8, 44, true)) return ItemStack.EMPTY;
                 slot.onQuickCraft(rawStack, quickMovedStack);
-            } else if (index == 0) {
-                if (!this.moveItemStackTo(rawStack, 2, 38, true)) return ItemStack.EMPTY;
+            } else if (index >= 0 && index <= 6) {
+                if (!this.moveItemStackTo(rawStack, 8, 44, true)) return ItemStack.EMPTY;
             } else {
-                if (!this.moveItemStackTo(rawStack, 0, 1, false)) {
-                    if (index < 29) {
-                        if (!this.moveItemStackTo(rawStack, 29, 38, false)) return ItemStack.EMPTY;
+                boolean moved = false;
+                if (AbstractFurnaceBlockEntity.getFuel().containsKey(rawStack.getItem())) {
+                    moved = this.moveItemStackTo(rawStack, 6, 7, false);
+                }
+                if (!moved) {
+                    moved = this.moveItemStackTo(rawStack, 0, 6, false);
+                }
+                if (!moved) {
+                    if (index < 35) {
+                        if (!this.moveItemStackTo(rawStack, 35, 44, false)) return ItemStack.EMPTY;
                     } else {
-                        if (!this.moveItemStackTo(rawStack, 2, 29, false)) return ItemStack.EMPTY;
+                        if (!this.moveItemStackTo(rawStack, 8, 35, false)) return ItemStack.EMPTY;
                     }
                 }
             }
@@ -77,4 +130,9 @@ public class PBFCoreMenu extends AbstractContainerMenu {
         }
         return quickMovedStack;
     }
+
+    public int getProgress() { return progressSlot.get(); }
+    public int getMaxProgress() { return maxProgressSlot.get(); }
+    public int getBurnTime() { return burnTimeSlot.get(); }
+    public int getBurnDuration() { return burnDurationSlot.get(); }
 }
