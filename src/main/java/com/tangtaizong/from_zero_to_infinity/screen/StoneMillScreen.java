@@ -36,13 +36,65 @@ public class StoneMillScreen extends AbstractContainerScreen<StoneMillMenu> {
 
 
         if (max > 0) {
-            int width = (int) ((float) progress / max *24);
+            int width = (int) ((float) progress / max * 24);
 
-            graphics.fill(this.leftPos + 82, this.topPos + 41,
-                    this.leftPos + 82 +width, this.topPos + 41 + 3,
-                    0xFFffffff);
+            if (width < 21) {
+                graphics.fill(this.leftPos + 82, this.topPos + 41,
+                        this.leftPos + 82 + width, this.topPos + 41 + 3,
+                        0xFFffffff);
+            }
+            if (width == 21) {
+                graphics.fill(this.leftPos + 82, this.topPos + 41,
+                        this.leftPos + 82 + 21, this.topPos + 41 + 3,
+                        0xFFffffff);
+                graphics.fill(this.leftPos + 102, this.topPos + 39,
+                        this.leftPos + 102 + 1, this.topPos + 39 + 7,
+                        0xFFffffff);
+            }
+            if (width == 22) {
+                graphics.fill(this.leftPos + 82, this.topPos + 41,
+                        this.leftPos + 82 + 21, this.topPos + 41 + 3,
+                        0xFFffffff);
+                graphics.fill(this.leftPos + 102, this.topPos + 39,
+                        this.leftPos + 102 + 1, this.topPos + 39 + 7,
+                        0xFFffffff);
+                graphics.fill(this.leftPos + 103, this.topPos + 40,
+                        this.leftPos + 103 + 1, this.topPos + 40 + 5,
+                        0xFFffffff);
+            }
+            if (width == 23) {
+                graphics.fill(this.leftPos + 82, this.topPos + 41,
+                        this.leftPos + 82 + 21, this.topPos + 41 + 3,
+                        0xFFffffff);
+                graphics.fill(this.leftPos + 102, this.topPos + 39,
+                        this.leftPos + 102 + 1, this.topPos + 39 + 7,
+                        0xFFffffff);
+                graphics.fill(this.leftPos + 103, this.topPos + 40,
+                        this.leftPos + 103 + 1, this.topPos + 40 + 5,
+                        0xFFffffff);
+                graphics.fill(this.leftPos + 104, this.topPos + 41,
+                        this.leftPos + 104 + 1, this.topPos + 41 + 3,
+                        0xFFffffff);
+            }
+            if (width == 24) {
+                graphics.fill(this.leftPos + 82, this.topPos + 41,
+                        this.leftPos + 82 + 21, this.topPos + 41 + 3,
+                        0xFFffffff);
+                graphics.fill(this.leftPos + 102, this.topPos + 39,
+                        this.leftPos + 102 + 1, this.topPos + 39 + 7,
+                        0xFFffffff);
+                graphics.fill(this.leftPos + 103, this.topPos + 40,
+                        this.leftPos + 103 + 1, this.topPos + 40 + 5,
+                        0xFFffffff);
+                graphics.fill(this.leftPos + 104, this.topPos + 41,
+                        this.leftPos + 104 + 1, this.topPos + 41 + 3,
+                        0xFFffffff);
+                graphics.fill(this.leftPos + 105, this.topPos + 42,
+                        this.leftPos + 105 + 1, this.topPos + 42 + 1,
+                        0xFFffffff);
+            }
+
         }
-
     }
 
     @Override
