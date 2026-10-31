@@ -179,6 +179,12 @@ public class ModItems {
             ITEMS.register("timespace_ingot",() -> new Item(new Item.Properties()));
     public static final DeferredItem<Item>ENTROPY_INGOT=
             ITEMS.register("entropy_ingot",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>CELESTIAL_TUNGSTEN_INGOT=
+            ITEMS.register("celestial_tungsten_ingot",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>ASTRAL_TITANIUM_INGOT=
+            ITEMS.register("astral_titanium_ingot",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>METEORITE_NICKEL_INGOT=
+            ITEMS.register("meteorite_nickel_ingot",() -> new Item(new Item.Properties()));
 
 
 

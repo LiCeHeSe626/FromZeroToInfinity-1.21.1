@@ -76,11 +76,14 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ADAMANTIUM_INGOT);
                         output.accept(ModItems.VIBRANIUM_INGOT);
 
-                        output.accept(ModItems.EUROPIUM_INGOT);
+                        output.accept(ModItems.EUPHEMIUM_INGOT);
 
                         output.accept(ModItems.QUANTANIUM_INGOT);
                         output.accept(ModItems.DOURANIUM_INGOT);//184
                         output.accept(ModItems.IXENONIUM_INGOT);
+                        output.accept(ModItems.ASTRAL_TITANIUM_INGOT);
+                        output.accept(ModItems.CELESTIAL_TUNGSTEN_INGOT);
+                        output.accept(ModItems.METEORITE_NICKEL_INGOT);
                         //alloys
                         output.accept(ModItems.BRASS_INGOT);
                         output.accept(ModItems.BRONZE_INGOT);//coppers
