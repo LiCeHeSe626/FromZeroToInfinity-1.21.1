@@ -185,6 +185,14 @@ public class ModItems {
             ITEMS.register("astral_titanium_ingot",() -> new Item(new Item.Properties()));
     public static final DeferredItem<Item>METEORITE_NICKEL_INGOT=
             ITEMS.register("meteorite_nickel_ingot",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>LCL_I=
+            ITEMS.register("meteorite_nickel_ingot",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>P_LCL_I=
+            ITEMS.register("meteorite_nickel_ingot",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>S_LCL_I=
+            ITEMS.register("meteorite_nickel_ingot",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>B_LCL_I=
+            ITEMS.register("meteorite_nickel_ingot",() -> new Item(new Item.Properties()));
 
 
 
