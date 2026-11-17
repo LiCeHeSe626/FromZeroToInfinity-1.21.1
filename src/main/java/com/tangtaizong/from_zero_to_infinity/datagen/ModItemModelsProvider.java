@@ -14,9 +14,10 @@ public class ModItemModelsProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         //basicItem(ModItems.ADAMANTIUM_INGOT.get());
-        basicItem(ModItems.ASTRAL_TITANIUM_INGOT.get());
-        basicItem(ModItems.CELESTIAL_TUNGSTEN_INGOT.get());
-        basicItem(ModItems.METEORITE_NICKEL_INGOT.get());
+        basicItem(ModItems.ENDIUM_INGOT.get());
+        basicItem(ModItems.TRANSCENDIUM_INGOT.get());
+        basicItem(ModItems.STARIUM_INGOT.get());
+        basicItem(ModItems.COMET_SILVER_INGOT.get());
 
 
     }

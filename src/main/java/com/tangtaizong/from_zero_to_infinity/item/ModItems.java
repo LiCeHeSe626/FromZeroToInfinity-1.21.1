@@ -185,14 +185,22 @@ public class ModItems {
             ITEMS.register("astral_titanium_ingot",() -> new Item(new Item.Properties()));
     public static final DeferredItem<Item>METEORITE_NICKEL_INGOT=
             ITEMS.register("meteorite_nickel_ingot",() -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item>LCL_I=
-            ITEMS.register("meteorite_nickel_ingot",() -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item>P_LCL_I=
-            ITEMS.register("meteorite_nickel_ingot",() -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item>S_LCL_I=
-            ITEMS.register("meteorite_nickel_ingot",() -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item>B_LCL_I=
-            ITEMS.register("meteorite_nickel_ingot",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>LCL_INGOT=
+            ITEMS.register("lcl_ingot",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>POLLUTED_LCL_INGOT=
+            ITEMS.register("polluted_lcl_ingot",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>SOLIDIFIED_LCL_INGOT=
+            ITEMS.register("solidified_lcl_ingot",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>BRILLIANT_LCL_INGOT=
+            ITEMS.register("brilliant_lcl_ingot",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>COMET_SILVER_INGOT=
+            ITEMS.register("comet_silver_ingot",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>STARIUM_INGOT=
+            ITEMS.register("starium_ingot",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>ENDIUM_INGOT=
+            ITEMS.register("endium_ingot",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>TRANSCENDIUM_INGOT=
+            ITEMS.register("transcendium_ingot",() -> new Item(new Item.Properties()));
 
 
 

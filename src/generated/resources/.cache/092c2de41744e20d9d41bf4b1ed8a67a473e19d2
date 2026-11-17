@@ -1,4 +1,5 @@
-// 1.21.1	2026-11-01T00:24:19.8365159	Item Models: from_zero_to_infinity
-5ca22f6f7d2333a76103d58b6576e32be7c4eb7f assets/from_zero_to_infinity/models/item/astral_titanium_ingot.json
-e818065c18d8eb0a0d0e7ff7f2d46beecc83aa77 assets/from_zero_to_infinity/models/item/celestial_tungsten_ingot.json
-1105d124670eafa38f56d9672fa28c93e8c247c6 assets/from_zero_to_infinity/models/item/meteorite_nickel_ingot.json
+// 1.21.1	2026-11-16T20:54:28.0651486	Item Models: from_zero_to_infinity
+1a8a5f42b815f03fe5372bba066714cdd11f57a2 assets/from_zero_to_infinity/models/item/comet_silver_ingot.json
+e74ebd5e1b4a26b41a75db3c4453a254c41293eb assets/from_zero_to_infinity/models/item/endium_ingot.json
+29c1fd06740fd96a0d5b9ca83fceadd41aa66bea assets/from_zero_to_infinity/models/item/starium_ingot.json
+9bc62326b0870754f27acc8a939da4727084a4c7 assets/from_zero_to_infinity/models/item/transcendium_ingot.json

@@ -13,9 +13,10 @@ public class ModZhCnLangProvider extends LanguageProvider {
     @Override
     protected void addTranslations() {
         //add(ModItems.TRITANIUM_INGOT.get(), "三钛锭");
-        add(ModItems.ASTRAL_TITANIUM_INGOT.get(), "星体钛锭");
-        add(ModItems.CELESTIAL_TUNGSTEN_INGOT.get(), "天体钨锭");
-        add(ModItems.METEORITE_NICKEL_INGOT.get(), "陨星镍锭");
+        add(ModItems.ENDIUM_INGOT.get(), "终末锭");
+        add(ModItems.TRANSCENDIUM_INGOT.get(), "超限锭");
+        add(ModItems.STARIUM_INGOT.get(), "星辰锭");
+        add(ModItems.COMET_SILVER_INGOT.get(), "彗星银锭");
 
 
 

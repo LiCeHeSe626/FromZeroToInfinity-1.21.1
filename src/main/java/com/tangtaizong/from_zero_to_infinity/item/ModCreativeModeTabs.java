@@ -64,26 +64,29 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.NEPTUNIUM_INGOT);//93
                         output.accept(ModItems.PLUTONIUM_INGOT);//94
                         output.accept(ModItems.OGANESSON_INGOT);//118
-                        output.accept(ModItems.DURANIUM_INGOT);//119
-                        output.accept(ModItems.TRITANIUM_INGOT);//120
                         output.accept(ModItems.SCHRABIDIUM_INGOT);//126
                         output.accept(ModItems.GHIORSIUM_INGOT);//132
+                        output.accept(ModItems.DURANIUM_INGOT);//144
+                        output.accept(ModItems.TRITANIUM_INGOT);//156
+                        output.accept(ModItems.ENDIUM_INGOT);//172
+                        output.accept(ModItems.TRANSCENDIUM_INGOT);//173
                         output.accept(ModItems.NAQUADAH_INGOT);//174
                         output.accept(ModItems.NAQUADRIA_INGOT);//174
                         output.accept(ModItems.ENRICHED_NAQUADAH_INGOT);//174
                         output.accept(ModItems.TRINIUM_INGOT);//175
                         output.accept(ModItems.MITHRIL_INGOT);//176
-                        output.accept(ModItems.ADAMANTIUM_INGOT);
-                        output.accept(ModItems.VIBRANIUM_INGOT);
-
-                        output.accept(ModItems.EUPHEMIUM_INGOT);
-
-                        output.accept(ModItems.QUANTANIUM_INGOT);
+                        output.accept(ModItems.STARIUM_INGOT);//178
+                        output.accept(ModItems.ADAMANTIUM_INGOT);//180
+                        output.accept(ModItems.VIBRANIUM_INGOT);//182
                         output.accept(ModItems.DOURANIUM_INGOT);//184
-                        output.accept(ModItems.IXENONIUM_INGOT);
-                        output.accept(ModItems.ASTRAL_TITANIUM_INGOT);
-                        output.accept(ModItems.CELESTIAL_TUNGSTEN_INGOT);
-                        output.accept(ModItems.METEORITE_NICKEL_INGOT);
+                        output.accept(ModItems.ASTRAL_TITANIUM_INGOT);//206
+                        output.accept(ModItems.EUPHEMIUM_INGOT);//212
+                        output.accept(ModItems.IXENONIUM_INGOT);//222
+                        output.accept(ModItems.METEORITE_NICKEL_INGOT);//278
+                        output.accept(ModItems.QUANTANIUM_INGOT);//280
+                        output.accept(ModItems.COMET_SILVER_INGOT);//287
+                        output.accept(ModItems.CELESTIAL_TUNGSTEN_INGOT);//352
+
                         //alloys
                         output.accept(ModItems.BRASS_INGOT);
                         output.accept(ModItems.BRONZE_INGOT);//coppers
@@ -92,7 +95,19 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.WROUGHT_IRON_INGOT);
                         output.accept(ModItems.STEEL_INGOT);//irons
                         output.accept(ModItems.HELICOPTER_INGOT);
-                        output.accept(ModItems.LICEHESE_INGOT);//???
+                        output.accept(ModItems.LICEHESE_INGOT);//???//
+                        output.accept(ModItems.OVERWORLDITE_INGOT);
+                        output.accept(Items.NETHERITE_INGOT);
+                        output.accept(ModItems.ENDITE_INGOT);
+                        //SPECIAL
+                        output.accept(ModItems.OVERWORLDITE_SCRAP);
+                        output.accept(Items.NETHERITE_SCRAP);
+                        output.accept(ModItems.ENDITE_SCRAP);
+                        output.accept(ModItems.LCL_INGOT);
+                        output.accept(ModItems.POLLUTED_LCL_INGOT);
+                        output.accept(ModItems.BRILLIANT_LCL_INGOT);
+                        output.accept(ModItems.SOLIDIFIED_LCL_INGOT);
+                        //SPECIAL ALLOY
                         output.accept(ModItems.TIME_ALLOY_INGOT);
                         output.accept(ModItems.SPACE_ALLOY_INGOT);
                         output.accept(ModItems.MASS_ALLOY_INGOT);
@@ -105,10 +120,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.FOREVER_INGOT);
                         output.accept(ModItems.ENTROPY_INGOT);
                         output.accept(ModItems.YP_ALLOY_INGOT);
-                        output.accept(ModItems.ENDITE_SCRAP);
-                        output.accept(ModItems.OVERWORLDITE_SCRAP);
-                        output.accept(ModItems.OVERWORLDITE_INGOT);
-                        output.accept(ModItems.ENDITE_INGOT);//!!!
 
 
 

@@ -170,6 +170,108 @@ public class TooltipEventHandler {
         if (stack.getItem() == ModItems.DURANIUM_INGOT.get()) {
             event.getToolTip().add(Component.translatable("tooltip.from_zero_to_infinity.duranium_ingot.desc"));
         }
+        if (stack.getItem() == ModItems.DOURANIUM_INGOT.get()) {
+            event.getToolTip().add(Component.translatable("tooltip.from_zero_to_infinity.douranium_ingot.desc"));
+        }
+        if (stack.getItem() == ModItems.ADAMANTIUM_INGOT.get()) {
+            event.getToolTip().add(Component.translatable("tooltip.from_zero_to_infinity.adamantium_ingot.desc"));
+        }
+        if (stack.getItem() == ModItems.ENRICHED_NAQUADAH_INGOT.get()) {
+            event.getToolTip().add(Component.translatable("tooltip.from_zero_to_infinity.enriched_naquadah_ingot.desc"));
+        }
+        if (stack.getItem() == ModItems.EUPHEMIUM_INGOT.get()) {
+            event.getToolTip().add(Component.translatable("tooltip.from_zero_to_infinity.euphemium_ingot.desc"));
+        }
+        if (stack.getItem() == ModItems.GHIORSIUM_INGOT.get()) {
+            event.getToolTip().add(Component.translatable("tooltip.from_zero_to_infinity.ghiorsium_ingot.desc"));
+        }
+        if (stack.getItem() == ModItems.MITHRIL_INGOT.get()) {
+            event.getToolTip().add(Component.translatable("tooltip.from_zero_to_infinity.mithril_ingot.desc"));
+        }
+        if (stack.getItem() == ModItems.NAQUADAH_INGOT.get()) {
+            event.getToolTip().add(Component.translatable("tooltip.from_zero_to_infinity.naquadah_ingot.desc"));
+        }
+        if (stack.getItem() == ModItems.NAQUADRIA_INGOT.get()) {
+            event.getToolTip().add(Component.translatable("tooltip.from_zero_to_infinity.naquadria_ingot.desc"));
+        }
+        if (stack.getItem() == ModItems.QUANTANIUM_INGOT.get()) {
+            event.getToolTip().add(Component.translatable("tooltip.from_zero_to_infinity.quantanium_ingot.desc"));
+        }
+        if (stack.getItem() == ModItems.SCHRABIDIUM_INGOT.get()) {
+            event.getToolTip().add(Component.translatable("tooltip.from_zero_to_infinity.schrabidium_ingot.desc"));
+        }
+        if (stack.getItem() == ModItems.TRINIUM_INGOT.get()) {
+            event.getToolTip().add(Component.translatable("tooltip.from_zero_to_infinity.trinium_ingot.desc"));
+        }
+        if (stack.getItem() == ModItems.TRITANIUM_INGOT.get()) {
+            event.getToolTip().add(Component.translatable("tooltip.from_zero_to_infinity.tritanium_ingot.desc"));
+        }
+        if (stack.getItem() == ModItems.VIBRANIUM_INGOT.get()) {
+            event.getToolTip().add(Component.translatable("tooltip.from_zero_to_infinity.vibranium_ingot.desc"));
+        }
+        if (stack.getItem() == ModItems.IXENONIUM_INGOT.get()) {
+            event.getToolTip().add(Component.translatable("tooltip.from_zero_to_infinity.ixenonium_ingot.desc"));
+        }
+        if (stack.getItem() == ModItems.MASS_ALLOY_INGOT.get()) {
+            event.getToolTip().add(Component.translatable("tooltip.from_zero_to_infinity.mass_alloy_ingot.desc"));
+        }
+        if (stack.getItem() == ModItems.EM_ALLOY_INGOT.get()) {
+            event.getToolTip().add(Component.translatable("tooltip.from_zero_to_infinity.em_alloy_ingot.desc"));
+        }
+        if (stack.getItem() == ModItems.LIGHT_ALLOY_INGOT.get()) {
+            event.getToolTip().add(Component.translatable("tooltip.from_zero_to_infinity.light_alloy_ingot.desc"));
+        }
+        if (stack.getItem() == ModItems.MATTER_ALLOY_INGOT.get()) {
+            event.getToolTip().add(Component.translatable("tooltip.from_zero_to_infinity.matter_alloy_ingot.desc"));
+        }
+        if (stack.getItem() == ModItems.WAVE_ALLOY_INGOT.get()) {
+            event.getToolTip().add(Component.translatable("tooltip.from_zero_to_infinity.wave_alloy_ingot.desc"));
+        }
+        if (stack.getItem() == ModItems.TEMPERATURE_ALLOY_INGOT.get()) {
+            event.getToolTip().add(Component.translatable("tooltip.from_zero_to_infinity.temperature_alloy_ingot.desc"));
+        }
+        if (stack.getItem() == ModItems.FOREVER_INGOT.get()) {
+            event.getToolTip().add(Component.translatable("tooltip.from_zero_to_infinity.forever_ingot.desc"));
+        }
+        if (stack.getItem() == ModItems.TIMESPACE_INGOT.get()) {
+            event.getToolTip().add(Component.translatable("tooltip.from_zero_to_infinity.timespace_ingot.desc"));
+        }
+        if (stack.getItem() == ModItems.ENTROPY_INGOT.get()) {
+            event.getToolTip().add(Component.translatable("tooltip.from_zero_to_infinity.entropy_ingot.desc"));
+        }
+        if (stack.getItem() == ModItems.CELESTIAL_TUNGSTEN_INGOT.get()) {
+            event.getToolTip().add(Component.translatable("tooltip.from_zero_to_infinity.celestial_tungsten_ingot.desc"));
+        }
+        if (stack.getItem() == ModItems.ASTRAL_TITANIUM_INGOT.get()) {
+            event.getToolTip().add(Component.translatable("tooltip.from_zero_to_infinity.astral_titanium_ingot.desc"));
+        }
+        if (stack.getItem() == ModItems.METEORITE_NICKEL_INGOT.get()) {
+            event.getToolTip().add(Component.translatable("tooltip.from_zero_to_infinity.meteorite_nickel_ingot.desc"));
+        }
+        if (stack.getItem() == ModItems.LCL_INGOT.get()) {
+            event.getToolTip().add(Component.translatable("tooltip.from_zero_to_infinity.lcl_ingot.desc"));
+        }
+        if (stack.getItem() == ModItems.POLLUTED_LCL_INGOT.get()) {
+            event.getToolTip().add(Component.translatable("tooltip.from_zero_to_infinity.polluted_lcl_ingot.desc"));
+        }
+        if (stack.getItem() == ModItems.SOLIDIFIED_LCL_INGOT.get()) {
+            event.getToolTip().add(Component.translatable("tooltip.from_zero_to_infinity.solidified_lcl_ingot.desc"));
+        }
+        if (stack.getItem() == ModItems.BRILLIANT_LCL_INGOT.get()) {
+            event.getToolTip().add(Component.translatable("tooltip.from_zero_to_infinity.brilliant_lcl_ingot.desc"));
+        }
+        if (stack.getItem() == ModItems.COMET_SILVER_INGOT.get()) {
+            event.getToolTip().add(Component.translatable("tooltip.from_zero_to_infinity.comet_silver_ingot.desc"));
+        }
+        if (stack.getItem() == ModItems.STARIUM_INGOT.get()) {
+            event.getToolTip().add(Component.translatable("tooltip.from_zero_to_infinity.starium_ingot.desc"));
+        }
+        if (stack.getItem() == ModItems.ENDIUM_INGOT.get()) {
+            event.getToolTip().add(Component.translatable("tooltip.from_zero_to_infinity.endium_ingot.desc"));
+        }
+        if (stack.getItem() == ModItems.TRANSCENDIUM_INGOT.get()) {
+            event.getToolTip().add(Component.translatable("tooltip.from_zero_to_infinity.transcendium_ingot.desc"));
+        }
 
 
 
